@@ -1,0 +1,54 @@
+:root {
+    --color: bisque;
+    --color-2: rgb(48, 39, 39);
+    --color-3: rgb(201, 100, 50);
+    --background-color: rgb(209, 178, 143);
+    --font-family: cursive;
+    --font-family-2: Arial;
+    --font-family-3: sans-serif;
+}
+  
+body {
+    background-color: var(--background-color);
+}
+
+header {
+    padding: 20px;
+    font-family: var(--font-family);
+    background-color: var(--color-2);
+    color: var(--color-3);
+} 
+
+.carousel-item {
+    height: 65rem;
+    background: #777;
+    color: white;
+    position: relative;
+    background-position: center;
+   
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;            
+    padding-bottom: 50px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+ @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+  }
