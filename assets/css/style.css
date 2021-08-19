@@ -7,6 +7,11 @@
     --font-family-2: Arial;
     --font-family-3: sans-serif;
 }
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
   
 body {
     background-color: var(--background-color);
@@ -17,12 +22,31 @@ header {
     font-family: var(--font-family);
     background-color: var(--color-2);
     color: var(--color-3);
-} 
+}
+
+footer {
+    padding: 30px;
+    font-family: var(--font-family);
+    background-color: var(--color-2);
+    color: var(--color-3);
+}
+
+section {
+    padding: 20px;
+    font-family: var(--font-family);
+    color: var(--color-3);
+}
+
+section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 50px;
+}
 
 .carousel-item {
     height: 65rem;
-    background: #777;
-    color: white;
+    background: var(--color-2);
+    color: var(--color);
     position: relative;
     background-position: center;
    
@@ -44,11 +68,41 @@ header {
     top: 0;
     background-position: center;
     background-size: cover;
-    opacity: 0.8;
+    opacity: 0.6;
+}
+
+#nutri-val {
+    display: block;
+    margin: 10px auto;
+    max-width: 100px;
 }
 
  @media (min-width: 768px) {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
-  }
+}
+
+@media screen and (max-width: 39.9375em){
+    header {
+        display: block;
+        
+    }
+
+    ul.menu{
+        background-color: white;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .top-bar{
+        display: block;
+        
+    }
+
+    ul.menu{
+        background-color: white;
+        justify-content: center;
+    }
+}

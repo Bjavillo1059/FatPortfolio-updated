@@ -27,8 +27,24 @@ please contact me at [brandonjavillo@gmail.com](brandonjavillo@gmail.com)
 ## Process
 
 <!-- - NavBar created with links and supporting documents -->
+When a User opens porfolio page, a display of my name will show with a quote!
+    - Name with quote appears in navbar
+    - Contact info:
+        - link to my GitHub repository
+        - link to google with my personal email links priamry, secondary emails
+        - link to LinkedIn profile
+        - Resume link that displays a PDF 
 
 <!-- - Carousel created with corresponding information -->
+Wehn a User opens portfolio page, a carousel appers with information about myself
+    - Carousel About me
+        - quick explanation about myself
+    - Carousel Hobbies
+        - gives an explanation of various things I personnally enjoy
+    - Carousel Miscellaneous
+        - explanation of more insight into my personal life
+        - a quote and something I hold near and dear to my heart
+        - spread awareness of possible awareness and resources  
 
 <!-- - sections and cards created to explain individual tracked information in clarity  -->
 
