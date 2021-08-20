@@ -41,11 +41,19 @@ Wehn a User opens portfolio page, a carousel appers with information about mysel
         - quick explanation about myself
     - Carousel Hobbies
         - gives an explanation of various things I personnally enjoy
+    - Carousel Projects
+        - show case of my projects
+        - linked to my GitHub
+            [- NutriVal] (https://bjavillo1059.github.io/Nutritional-Value/) 
+            - Daily Planner
+            - Js Trivia
+            - PassWord Generator
+            - 
     - Carousel Miscellaneous
         - explanation of more insight into my personal life
         - a quote and something I hold near and dear to my heart
         - spread awareness of possible awareness and resources  
 
-<!-- - sections and cards created to explain individual tracked information in clarity  -->
+<!-- - Sections created to explain individual information from carousel in clarity  -->
 
-- 
+<!--  -->

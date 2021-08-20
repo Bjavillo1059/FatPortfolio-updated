@@ -1,24 +1,26 @@
-const displayEl = $('#projectsContent')
+// variables set
+const projectsEl = $('#projectsContent')
 const infoButton = $('#project-info-btn')
 
+const projectsData = ({displayEl}) => `
+
+`
+
+// click function for button on carousel
 infoButton.on('click', () => {
     console.log('button pressed')
-    projectsData()
+    projectsData(res)
   })
 
-function displayProjects(projectsData) {
+  displayProjects();
+
+function displayProjects() {
     displayEl.inner = `
     <div class="project-info-container">
             <h3>Project</h3>
             <p class="text-center"><a href="https://github.com/Bjavillo1059">
                     <img src="./assets/img/garden photo.JPG" alt="garden photo" class="popout"></a>
                 *Click photo to view GitHub*
-            </p>
-            <p>
-                I created this portfolio page, with more to come. I am continuously growing and acheiving experience
-                with every step taken into a career of software development. Below I will consistently add projects that
-                I have created and/or have contributed to. I stand by my morals in this new world of development, that
-                "hardwork, dedication, and commitment to excellence is the foundation of a brighter future for oneself!"
             </p>
             <p>
                 <a href="https://bjavillo1059.github.io/Nutritional-Value/" class="text-primary">*NutriVal* </a> Gives a

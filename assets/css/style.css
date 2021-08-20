@@ -43,6 +43,11 @@ section img {
     max-width: 50px;
 }
 
+.navbar-links {
+    text-align: right;
+    flex: auto; 
+}
+
 .carousel-item {
     height: 65rem;
     background: var(--color-2);
