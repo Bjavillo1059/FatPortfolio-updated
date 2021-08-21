@@ -8,7 +8,7 @@ My personal portfolio for presentation of current and future projects.  Gives a 
 
 [My Fat Portfolio] ("placeholder")
 
-<img src="./assets/images/port photo.PNG" alt=" img of portfolio"/>
+<img src="./assets/img/udated FatPortfolio snip.PNG" alt=" img of portfolio"/>
 
 ## Technology used
 

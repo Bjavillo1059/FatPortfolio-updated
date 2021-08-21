@@ -4,7 +4,6 @@ const hobbiesButton = $('#hobbies-info-btn')
 hobbiesButton.on('click', () => {
     console.log('button pressed')
     hobbiesData(resp)
-    console.log(resp)
 })
 
 function hobbiesData() {

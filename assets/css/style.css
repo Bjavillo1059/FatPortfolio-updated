@@ -62,11 +62,11 @@ section img {
 }
 
 .carousel-item {
-    height: 65rem;
+    height: 32rem;
     background: var(--color2);
     color: var(--color1);
     position: relative;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
    
 }
