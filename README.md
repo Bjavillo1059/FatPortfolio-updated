@@ -44,10 +44,10 @@ Wehn a User opens portfolio page, a carousel appers with information about mysel
     - Carousel Projects
         - show case of my projects
         - linked to my GitHub
-            [- NutriVal] (https://bjavillo1059.github.io/Nutritional-Value/) 
-            - Daily Planner
-            - Js Trivia
-            - PassWord Generator
+            [- NutriVal](https://bjavillo1059.github.io/Nutritional-Value/) 
+            [- Daily Planner](https://bjavillo1059.github.io/Daily-Planner-wk-6/)
+            [- Js Trivia](https://bjavillo1059.github.io/My-Code-Quiz/)
+            [- PassWord Generator](https://bjavillo1059.github.io/password-generator/)
             - 
     - Carousel Miscellaneous
         - explanation of more insight into my personal life

@@ -12,9 +12,19 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>My New Personal Portfolio</title>
+
+    <!-- does not work will add later -->
+    <!-- <script>
+        #pageAudio{
+            width: 900px; margin: auto; padding: 10px;
+        }
+    </script> -->
 </head>
 
 <body>
+
+    <!-- this doesn't work need to study more -->
+    <!-- <div aria-hidden="true" id="pageAudio"><src="https://www.youtube.com/watch?v="SF58Lsvqg5E"></div></div> -->
 
     <header>
         <h1 class="display-5 text-start">Brandon Javillo -</h1>
@@ -57,7 +67,8 @@
                         Science. Let's just say because of my love for videogames and my job in the militray, I now have
                         chosen
                         something that I enjoy and look forward to learning anything and everything I can! </p>
-                    <a href="#" class="btn btn-lg btn-primary" id="about-me-btn">
+                    
+                    <a href="#" class="btn btn-lg btn-primary" id="aboutMe-info-btn">
                         Click for Info
                     </a>
                 </div>
@@ -71,9 +82,10 @@
                         caused many headaches and confrontations. Now I only look forward to reaching one goal in life,
                         which is the pursuit of happiness! For me and my family, enjoying life and what it has to offer
                         is everything that you need to be happy!</p>
-                    <a href="#" class="btn btn-lg btn-primary">
+                    <!-- will add to later -->
+                    <!-- <a href="#" class="btn btn-lg btn-primary">
                         Click for Info
-                    </a>
+                    </a> -->
                 </div>
             </div>
             <div class="carousel-item" id="projects">
@@ -91,7 +103,7 @@
                         oneself!"
                     </p>
                     <a href="#" class="btn btn-lg btn-primary" id="projects-info-btn">
-                        Click for Info
+                        Click to See Projects
                     </a>
                 </div>
             </div>
@@ -112,9 +124,10 @@
                         American soil!" 1 Veteran lost every 65 minutes is 1 Veteran to many, please spread the
                         awareness. The Military Suicide Awareness. Say Hi, be kind, and help your fellow Americans to
                         get through to another day! </p>
-                    <a href="#" class="btn btn-lg btn-primary">
-                        Click for Info
-                    </a>
+                    <!-- will add to later -->
+                    <!-- <a href="#" class="btn btn-lg btn-primary">
+                        Click for more Info
+                    </a> -->
                 </div>
             </div>
         </div>
@@ -130,13 +143,59 @@
 
     <div class="display-content"></div>
 
-    <section class="aboutme-content" id="aboutMeContent">
+    <section class="projects-content" id="projectsContent">
+        <div class="project-info-container d-none text-center p-2">
+            <h3>*Projects*</h3>
+            <p class="projects-img"><a href="https://github.com/Bjavillo1059">
+                    <img src="./assets/img/garden photo.JPG" alt="garden photo" id="garden-image"></a>
+                *Click photo to view GitHub*
+            </p>
+            <p>
+                <a href="https://bjavillo1059.github.io/Nutritional-Value/" class="text-primary">*NutriVal* </a> Gives a
+                user the ability to take control of what they are putting into their bodies! <a
+                    href="https://bjavillo1059.github.io/Nutritional-Value/">
+                    <img src="assets/img/NutriVal snip.PNG" alt="NutriVal" class="popout" id="nutri-val">
+                </a>
+            </p>
+            <p>
+                <a href="https://bjavillo1059.github.io/Nutritional-Value/" class="text-primary">*Daily Planner* </a>
+                Allows a User to track what they are doing throughout a normal working day <a
+                    href="https://bjavillo1059.github.io/Nutritional-Value/">
+                    <img src="assets/img/daily planner.PNG" alt="NutriVal" class="popout" id="daily-plan">
+                </a>
+            </p>
+            <p>
+                <a href="https://bjavillo1059.github.io/Nutritional-Value/" class="text-primary">*Code Quiz* </a>
+                Created a little Javascript quiz for familiarity and understanding <a
+                    href="https://bjavillo1059.github.io/Nutritional-Value/">
+                    <img src="assets/img/Code Quiz.PNG" alt="NutriVal" class="popout" id="code-quiz">
+                </a>
+            </p>
+            <p>
+                <a href="https://bjavillo1059.github.io/Nutritional-Value/" class="text-primary">*Password Generator*
+                </a> This password generator <a href="https://bjavillo1059.github.io/Nutritional-Value/">
+                    <img src="assets/img/pass gen photo.PNG" alt="NutriVal" class="popout" id="pass-gen">
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <section class="aboutMe-content" id="aboutMeContent">
+        <div class="aboutMe-info-container d-none text-center p-2"></div>
+        <h3>*About Me*</h3>
+        <p class="aboutMe-info">
+            My name is Brandon Javillo and I am a recently retired US Army Veteran, proud to have served and loved every minute of the traveling and relationships I've built along the way! Currently I am married to the most beautiful, loving, caring, and amazing woman and I have 4 children. I spent 20 years in the military as an aircraft electrician and loved my job! I left the Army earlier than I really wanted to, but moved on to a bigger and better future with computer coding. I have chosen to go into something that I enjoy and look forward to learning anything and everything I can!
+
+            I attended some college at Austin Peay State University and Pierce Community College, emphasis in the Healthcare industry and Electrical Engineering & Development. I have a cumilative of 105 college credits, I will be continuing to acheive my BS in Computer Science in the future at UNLV. I am currently attending University California Davis bootcamp for Full Stack Web develpoment. I have just completed a project that gives a User the ability to take control of what goes into their bodies called NutriVal. If you would like to check it out please come and take a look at my GitHub page (github.com/Bjavillo1059).
+            
+            I am also a trained and experienced Aircraft Electrician and Electrician supervisor with 20 years’ experience working on the most advanced rotary-wing aircraft. Experience and knowledge operating, maintaining, and instructing technicians on the fully integrated digital cockpit management system, Common Aviation Architecture Cockpit; as well as older Analog models the military has to offer. I possess expertise in the essentials of safety and quality with strong customer service experience, collaboration, and a background of achievement in support of all levels of management.
+            
+            I am also an experienced and dedicated resource and asset allocations professional, whose primary goal is for the betterment of the organization and protecting its integrity. Balancing a great adaptable work ethic in team building, financial resolution, and budget analysis in spending as well as cost effectiveness. Skilled in analyzing technical specifications, engineer schematics, problem diagnosis, troubleshooting and resolution. Proven ability to achieve results through task orientation, operational responsibility and data collection. Also, strong skills in agency and department supervision, written, verbal communications and delivering technical training under the guidance of organization policies.
+        </p>
     </section>
     <section class="hobbies-content" id="hobbiesContent">
     </section>
-    <section class="projects-content" id="projectsContent">
-    </section>
-    <section class="misc-content" id="projectsContent">
+    <section class="misc-content" id="miscContent">
     </section>
 
 
@@ -153,7 +212,7 @@
                     <a href="https://mail.google.com/mail" aria-placeholder="contact-email">brandonjavillo@gmail.com</a>
                 </li>
                 <li>
-                    <a href="https://mail.google.com/mail" aria-placeholder="contact-email">bjavillo1059@gmail.com</a>
+                    <a href="#" aria-placeholder="contact-number">(808)372-0332</a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/brandon-javillo-76724b170/"
