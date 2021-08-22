@@ -6,7 +6,7 @@ My personal portfolio for presentation of current and future projects.  Gives a 
 
 ## Deployment 
 
-[My Fat Portfolio] ("placeholder")
+[My Fat Portfolio](https://bjavillo1059.github.io/FatPortfolio-updated/)
 
 <img src="./assets/img/update FatPortfolio snip.PNG" alt=" img of portfolio"/>
 
